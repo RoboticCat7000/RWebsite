@@ -171,6 +171,9 @@ nav a {
 .nav-video{
   background-color:pink
 }
+.nav-achivements{
+  background-color:lightskyblue;
+}
 
 .nav-home:hover{background-color:blue;}
 .nav-about-me:hover{background-color:blue;}
