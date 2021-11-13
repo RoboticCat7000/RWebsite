@@ -1,0 +1,190 @@
+/* * * START CSS TIPS * * *
+  * Great places to learn about CSS
+  * * https://css-tricks.com
+  * * https://www.w3schools.com/
+  * * https://www.google.com/
+  * List of available CSS properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+  * List of shorthand properties: https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
+  * Directory paths: https://css-tricks.com/quick-reminder-about-file-paths/
+  * To know which browsers support what property: https://caniuse.com/
+  * Alphabetizing your CSS properties makes for easier reading
+  * Indenting by 2 spaces helps for readability
+  * When developing with CSS use classes as much as possible leave id(s) for Javascript
+  * Give everything a meaningful name
+  * By default all elements are set to position:static: Default value. Elements render in order, as they appear in the document flow
+  * Single property items can be on the same line as enclosing bracket { } saves on whitespace while developing
+  * Whitespace is ignored, will not render in HTML file
+  * Every property should end with a semi colon
+  * Remember to compress your imagery: https://enviragallery.com/9-best-free-image-optimization-tools-for-image-compression/ no one want to wait and download a 1 MB image on a mobile device
+  * Fonts - web safe fonts will give you the most speed when someone is trying to view your site at an airport, museum, in a canyon - somewhere there is a slow connection, not everyone travels at the same speed
+ * * * END CSS TIPS * * */
+
+* {
+  box-sizing: border-box;
+  font-weight:bolder;
+  font-family:'Noto Sans Display',sans-serif;
+}
+html,body{
+  height: 100%;
+  margin: 0;
+}
+.container{
+  padding: 0;
+  min-height:100%;
+  margin-top:0px;
+  margin:bottom: -70px;
+  margin-right: auto;
+  margin-left: auto;
+}
+img{
+  width:30%;
+  height:auto;
+}
+
+header{
+  background-color:#f2f1ef;
+}
+header div{
+  width: 80%;
+
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main-logo{
+  color:#0e1496;
+
+
+  font-family: 'Noto Sans Display','arial black', arial, helvetica, sans-serif;
+  font-size: 6vh;
+
+  margin-left:35%;
+  text-decoration:none;
+  position: relative;
+
+}
+.page-title{
+font-family: 'Noto Sans Display','Cambria', times, serif;
+font-size: 5vh;
+padding-left: 1%;
+position: relative;
+color:#0e1496;
+
+}
+
+section {
+  background-color: rgb(3, 153, 153);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height:800px;
+  padding-top: 50px;
+}
+
+.content{
+  background-color: whitesmoke;
+
+  margin: 0 auto;
+  min-height: 700px;
+  padding: 50px;
+  width: 80%;
+}
+
+
+
+footer{
+  position: relative;
+  background-color: blue;
+  margin: 0 auto;
+  width:80%;
+  height:70px;
+}
+
+footer div{
+  position: absolute;
+  right: 0;
+  width: 112px;
+  z-index: 1;
+}
+
+.fb-icon{
+  background-image:url("../Images/facebook.png");
+  z-index:2;
+}
+.yt-icon{
+  background-image:url("../Images/youtube.png");
+  z-index:2;
+}
+.twitter-icon{
+  background-image:url("../Images/twitter.png");
+  z-index:2;
+}
+footer div a {
+  background-size: 100% 100%;
+  display: inline-block;
+  height:25px;
+  overflow: hidden;
+  text-indent: 101%;
+  width:25px;
+}
+footer{
+
+  width:100%;
+}
+nav {
+  left:25px;
+  position: relative;
+  top: 10px;
+  margin: 0 auto;
+  width:80%;
+}
+nav a {
+  color:white;
+  font-family: 'Nato Sans Display',sans-serif;
+  padding: 0.5vh;
+  text-decoration: none;
+  background:color:grey;
+
+}
+.nav-home{
+  background-color:lightskyblue;
+}
+.nav-about-me{
+  background-color:pink;
+}
+.nav-my-pets{
+  background-color:lightskyblue
+}
+.nav-tbs{
+  background-color:pink
+}
+.nav-game{
+  background-color:lightskyblue
+}
+.nav-video{
+  background-color:pink
+}
+
+.nav-home:hover{background-color:blue;}
+.nav-about-me:hover{background-color:blue;}
+.nav-my-pets:hover{background-color:blue;}
+.nav-tbs:hover{background-color:blue;}
+.nav-game:hover{background-color:blue;}
+.nav-video:hover{background-color:blue;}
+nav a{
+  transition: background-color 0.5s ease;
+}
+.mc-house{
+  color:Blue;
+  font-size:20px;
+}
+.vid-title{
+  font-size:30px;
+  color:orange;
+}
