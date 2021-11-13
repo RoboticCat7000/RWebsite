@@ -89,8 +89,9 @@ section {
 }
 
 .content{
-  background-color: whitesmoke;
-
+  background-image: url("../Images/background.jpg");
+  background-size:cover
+  
   margin: 0 auto;
   min-height: 700px;
   padding: 50px;
