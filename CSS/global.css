@@ -42,7 +42,8 @@ img{
 }
 
 header{
-  background-color:#f2f1ef;
+  background-image: url("\\Images\\profile-2.jpeg");
+background-size:cover;
 }
 header div{
   width: 80%;
