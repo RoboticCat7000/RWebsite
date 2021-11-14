@@ -176,6 +176,9 @@ nav a {
 .nav-achivements{
   background-color:lightskyblue;
 }
+.nav-feedback{
+ background-color:pink
+}
 
 .nav-home:hover{background-color:blue;}
 .nav-about-me:hover{background-color:blue;}
