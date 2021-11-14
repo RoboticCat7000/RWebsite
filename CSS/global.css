@@ -187,6 +187,8 @@ nav a {
 .nav-tbs:hover{background-color:blue;}
 .nav-game:hover{background-color:blue;}
 .nav-video:hover{background-color:blue;}
+nav-achivements:hover{background-color:blue;}
+nav-feedback:hover{background-color:blue;}
 nav a{
   transition: background-color 0.5s ease;
 }
