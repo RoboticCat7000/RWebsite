@@ -32,7 +32,7 @@ html,body{
   padding: 0;
   min-height:100%;
   margin-top:0px;
-  margin:bottom: -70px;
+  margin-bottom: -70px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -153,7 +153,7 @@ nav a {
   font-family: 'Nato Sans Display',sans-serif;
   padding: 0.5vh;
   text-decoration: none;
-  background:color:grey;
+  background-color:grey;
 
 }
 .nav-home{
