@@ -203,7 +203,7 @@ nav a{
 
 .card{
     background: white;
-    padding:1rem;
+    padding:10px;
     border: 1px solid #777;
     border-radius:.25rem;
     font-family: 'Open Sans', sans-serif;
