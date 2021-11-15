@@ -200,3 +200,30 @@ nav a{
   font-size:30px;
   color:orange;
 }
+
+.card{
+    background: white;
+    padding:1rem;
+    border: 1px solid #777;
+    border-radius:.25rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    font-family: 'Roboto',sans-serif;
+    font-size:30px
+}
+.fb-link{
+    text-decoration: none;
+    color:skyblue;
+    border: #777;
+    background-color:black;
+    border-radius: .25rem;
+    font-size:30px;
+
+}
+.body{
+    size:20px;
+}
+.fbimg{
+    padding:0px;
+}
