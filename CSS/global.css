@@ -180,6 +180,9 @@ nav a {
 .nav-feedback{
  background-color:pink
 }
+.nav-webgames{
+ background-color:lightskyblue;
+}
 
 .nav-home:hover{background-color:blue;}
 .nav-about-me:hover{background-color:blue;}
@@ -189,6 +192,7 @@ nav a {
 .nav-video:hover{background-color:blue;}
 .nav-achivements:hover{background-color:blue;}
 .nav-feedback:hover{background-color:blue;}
+.nav-webgames:hover{background-color:blue;}
 nav a{
   transition: background-color 0.5s ease;
 }
