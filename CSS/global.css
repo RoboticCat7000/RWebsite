@@ -10,7 +10,7 @@
   * Alphabetizing your CSS properties makes for easier reading
   * Indenting by 2 spaces helps for readability
   * When developing with CSS use classes as much as possible leave id(s) for Javascript
-  * Give everything a meaningful name
+  * Give everything a meaningful c
   * By default all elements are set to position:static: Default value. Elements render in order, as they appear in the document flow
   * Single property items can be on the same line as enclosing bracket { } saves on whitespace while developing
   * Whitespace is ignored, will not render in HTML file
@@ -216,7 +216,7 @@ nav a{
     font-family: 'Roboto',sans-serif;
     font-size:30px
 }
-.fb-link{
+.link{
     text-decoration: none;
     color:skyblue;
     border: #777;
