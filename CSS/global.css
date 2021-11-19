@@ -22,7 +22,7 @@
 * {
   box-sizing: border-box;
   font-weight:bolder;
-  font-family:'Noto Sans Display',sans-serif;
+  font-family:'Open Sans',sans-serif;
 }
 html,body{
   height: 100%;
@@ -63,7 +63,7 @@ header div{
   color:#0e1496;
 
 
-  font-family: 'Noto Sans Display','arial black', arial, helvetica, sans-serif;
+  font-family: 'Open Sans','arial black', arial, helvetica, sans-serif;
   font-size: 6vh;
 
   margin-left:35%;
@@ -72,7 +72,7 @@ header div{
 
 }
 .page-title{
-font-family: 'Noto Sans Display','Cambria', times, serif;
+font-family: 'Open Sans','Cambria', times, serif;
 font-size: 5vh;
 padding-left: 1%;
 position: relative;
