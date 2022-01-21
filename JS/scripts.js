@@ -1,5 +1,5 @@
 import { updateBird, setupBird, getBirdRect} from './bird.js'
-import { updatePipes,setupPipes,getPassedPipesCount,getPipeRects} from './JS/pipe.js'
+import { updatePipes,setupPipes,getPassedPipesCount,getPipeRects} from './pipe.js'
 document.addEventListener("keypress",handleStart,{ once:true})
 const title = document.querySelector("[data-title]");
 const subtitle = document.querySelector("[data-subtitle]");
