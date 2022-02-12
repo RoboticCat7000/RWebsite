@@ -19,34 +19,36 @@
   * Fonts - web safe fonts will give you the most speed when someone is trying to view your site at an airport, museum, in a canyon - somewhere there is a slow connection, not everyone travels at the same speed
  * * * END CSS TIPS * * */
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@800&display=swap");
 * {
   box-sizing: border-box;
-  font-weight:bolder;
-  font-family:'Open Sans',sans-serif;
+  font-weight: bolder;
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
-html,body{
+html,
+body {
   height: 100%;
   margin: 0;
 }
-.container{
+.container {
   padding: 0;
-  min-height:100%;
-  margin-top:0px;
+  min-height: 100%;
+  margin-top: 0px;
   margin-bottom: -70px;
   margin-right: auto;
   margin-left: auto;
 }
-img{
-  width:30%;
-  height:auto;
+img {
+  width: 30%;
+  height: auto;
 }
 
-header{
+header {
   background-image: url("../Images/profile-2.jpeg");
-   background-size:cover
-
+  background-size: cover;
 }
-header div{
+header div {
   width: 80%;
 
   padding-top: 30px;
@@ -59,25 +61,22 @@ header div{
   margin-right: auto;
   margin-left: auto;
 }
-.main-logo{
-  color:#0e1496;
+.main-logo {
+  color: #0e1496;
 
-
-  font-family: 'Open Sans','arial black', arial, helvetica, sans-serif;
+  font-family: "Open Sans", "arial black", arial, helvetica, sans-serif;
   font-size: 6vh;
 
-  margin-left:35%;
-  text-decoration:none;
+  margin-left: 35%;
+  text-decoration: none;
   position: relative;
-
 }
-.page-title{
-font-family: 'Open Sans','Cambria', times, serif;
-font-size: 5vh;
-padding-left: 1%;
-position: relative;
-color:#0e1496;
-
+.page-title {
+  font-family: "Open Sans", "Cambria", times, serif;
+  font-size: 5vh;
+  padding-left: 1%;
+  position: relative;
+  color: #0e1496;
 }
 
 section {
@@ -85,126 +84,154 @@ section {
   background-position: center center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  min-height:800px;
+  min-height: 800px;
   padding-top: 50px;
 }
 
-.content{
+.content {
   background-image: url("../Images/background1.jpg");
-  background-size:cover;
+  background-size: cover;
 
-  
   margin: 0 auto;
   min-height: 700px;
   padding: 50px;
   width: 80%;
 }
 
-
-
-footer{
+footer {
   position: relative;
-  background-color: blue;
+  background: rgb(5, 22, 120);
   margin: 0 auto;
-  width:80%;
-  height:70px;
+  width: 80%;
+  height: 70px;
 }
 
-footer div{
+footer div {
   position: absolute;
   right: 0;
   width: 112px;
   z-index: 1;
 }
 
-.fb-icon{
-  background-image:url("../Images/facebook.png");
-  z-index:2;
+.fb-icon {
+  background-image: url("../Images/facebook.png");
+  z-index: 2;
 }
-.yt-icon{
-  background-image:url("../Images/youtube.png");
-  z-index:2;
+.yt-icon {
+  background-image: url("../Images/youtube.png");
+  z-index: 2;
 }
-.twitter-icon{
-  background-image:url("../Images/twitter.png");
-  z-index:2;
+.twitter-icon {
+  background-image: url("../Images/twitter.png");
+  z-index: 2;
+}
+.instagram-icon {
+  background-image: url("../Images/instagram.png");
+  z-index: 2;
+}
+.gdev-icon {
+  background-image: url("../Images/gdev.png");
+  z-index: 2;
+}
+.github-icon {
+  background-image: url("../Images/github.png");
+  z-index: 2;
 }
 footer div a {
   background-size: 100% 100%;
   display: inline-block;
-  height:25px;
+  height: 25px;
   overflow: hidden;
   text-indent: 101%;
-  width:25px;
+  width: 25px;
 }
-footer{
-
-  width:100%;
+footer {
+  width: 100%;
 }
 nav {
-  left:25px;
-  position: relative;
+  left: 25px;
+  position: sticky;
   top: 10px;
   margin: 0 auto;
-  width:80%;
+  width: 80%;
 }
 nav a {
-  color:white;
-  font-family: 'Nato Sans Display',sans-serif;
+  color: white;
+  font-family: "Noto Sans Display", sans-serif;
   padding: 0.5vh;
   text-decoration: none;
-  background-color:grey;
-  border-radius:5%;
+  background-color: grey;
+  border-radius: 5%;
 }
-.nav-home{
-  background-color:lightskyblue;
+.nav-home {
+  background-color: lightskyblue;
 }
-.nav-about-me{
-  background-color:pink;
+.nav-about-me {
+  background-color: pink;
 }
-.nav-my-pets{
-  background-color:lightskyblue
+.nav-my-pets {
+  background-color: lightskyblue;
 }
-.nav-tbs{
-  background-color:pink
+.nav-tbs {
+  background-color: pink;
 }
-.nav-game{
-  background-color:lightskyblue
+.nav-game {
+  background-color: lightskyblue;
 }
-.nav-video{
-  background-color:pink
+.nav-video {
+  background-color: pink;
 }
-.nav-achivements{
-  background-color:lightskyblue;
+.nav-achivements {
+  background-color: lightskyblue;
 }
-.nav-feedback{
- background-color:pink
+.nav-feedback {
+  background-color: pink;
 }
-.nav-webgames{
- background-color:lightskyblue;
+.nav-webgames {
+  background-color: lightskyblue;
 }
 
-.nav-home:hover{background-color:blue;}
-.nav-about-me:hover{background-color:blue;}
-.nav-my-pets:hover{background-color:blue;}
-.nav-tbs:hover{background-color:blue;}
-.nav-game:hover{background-color:blue;}
-.nav-video:hover{background-color:blue;}
-.nav-achivements:hover{background-color:blue;}
-.nav-feedback:hover{background-color:blue;}
-.nav-webgames:hover{background-color:blue;}
-nav a{
+.nav-home:hover {
+  background-color: blue;
+}
+.nav-about-me:hover {
+  background-color: blue;
+}
+.nav-my-pets:hover {
+  background-color: blue;
+}
+.nav-tbs:hover {
+  background-color: blue;
+}
+.nav-game:hover {
+  background-color: blue;
+}
+.nav-video:hover {
+  background-color: blue;
+}
+.nav-achivements:hover {
+  background-color: blue;
+}
+.nav-feedback:hover {
+  background-color: blue;
+}
+.nav-webgames:hover {
+  background-color: blue;
+}
+nav a {
   transition: background-color 0.5s ease;
 }
-.mc-house{
-  color:blue;
-  font-size:20px;
+.mc-house {
+  color: blue;
+  font-size: 20px;
 }
-.vid-title{
-  font-size:30px;
-  color:orange;
+.vid-title {
+  font-size: 30px;
+  color: orange;
 }
-.current{
-  background-color:#73828b;
+.current {
+  background-color: #73828b;
 }
-.current:hover{background-color:#575f63;}
+.current:hover {
+  background-color: #575f63;
+}
