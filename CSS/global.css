@@ -45,7 +45,7 @@ img {
 }
 
 header {
-  background-image: url("../Images/profile-2.jpeg");
+  background-image: url("../Images/bg.jpeg");
   background-size: cover;
 }
 header div {
@@ -89,7 +89,7 @@ section {
 }
 
 .content {
-  background-image: url("../Images/background1.jpg");
+  background-image: url("../Images/bgmain.jpg");
   background-size: cover;
 
   margin: 0 auto;
@@ -188,7 +188,8 @@ nav a {
   background-color: pink;
 }
 .nav-webgames {
-  background-color: lightskyblue;
+  display: none;
+  background-color: darkred;
 }
 
 .nav-home:hover {
@@ -215,9 +216,10 @@ nav a {
 .nav-feedback:hover {
   background-color: blue;
 }
-.nav-webgames:hover {
-  background-color: blue;
-}
+/* .nav-webgames:hover {
+  display: none;
+  background-color: darkred;
+} */
 nav a {
   transition: background-color 0.5s ease;
 }
