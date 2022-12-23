@@ -115,26 +115,32 @@ footer div {
 
 .fb-icon {
   background-image: url("../Images/facebook.png");
+  border-radius: 12;
   z-index: 2;
 }
 .yt-icon {
   background-image: url("../Images/youtube.png");
+  border-radius: 12;
   z-index: 2;
 }
 .twitter-icon {
   background-image: url("../Images/twitter.png");
+  border-radius: 12;
   z-index: 2;
 }
 .instagram-icon {
   background-image: url("../Images/instagram.png");
+  border-radius: 12;
   z-index: 2;
 }
 .gdev-icon {
   background-image: url("../Images/gdev.png");
+  border-radius: 12;
   z-index: 2;
 }
 .github-icon {
   background-image: url("../Images/github.png");
+  border-radius: 12;
   z-index: 2;
 }
 footer div a {
@@ -187,10 +193,6 @@ nav a {
 .nav-feedback {
   background-color: pink;
 }
-.nav-webgames {
-  display: none;
-  background-color: darkred;
-}
 
 .nav-home:hover {
   background-color: blue;
@@ -216,18 +218,15 @@ nav a {
 .nav-feedback:hover {
   background-color: blue;
 }
-/* .nav-webgames:hover {
-  display: none;
-  background-color: darkred;
-} */
+
 nav a {
   transition: background-color 0.5s ease;
 }
-.mc-house {
+.video-description {
   color: blue;
   font-size: 20px;
 }
-.vid-title {
+.title-orange {
   font-size: 30px;
   color: orange;
 }
